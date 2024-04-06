@@ -1,6 +1,6 @@
-const { Client } = require('discord.js');
-const config = require('./config');
-const helpCommand = require('./commands');
+const { Client } = require('./src');
+const config = require('./src/config');
+const helpCommand = require('./src/commands');
 
 const { intents, prefix, token } = config;
 

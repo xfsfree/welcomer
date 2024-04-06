@@ -1,6 +1,6 @@
-import { Client } from 'discord.js';
-import config from './config';
-import helpCommand from './commands';
+const { Client } = require('discord.js');
+const config = require('./config');
+const helpCommand = require('./commands');
 
 const { intents, prefix, token } = config;
 
@@ -16,7 +16,7 @@ const client = new Client({
 });
 
 client.on('ready', () => {
-  console.log(`Logged in as: ${client.user?.tag}`);
+  console.log(`Logged in as: ${client.user ? client.user.tag : 'Unknown user'}`);
 });
 
 client.on('messageCreate', async (message) => {
@@ -40,7 +40,7 @@ client.on('messageCreate', async (message) => {
 
       case 'help':
         const embed = helpCommand(message);
-        embed.setThumbnail(client.user!.displayAvatarURL());
+        embed.setThumbnail(client.user ? client.user.displayAvatarURL() : '');
         await message.channel.send({ embeds: [embed] });
         break;
     }

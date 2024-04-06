@@ -1,0 +1,5 @@
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .cache/replit/modules/replit:v8-20240329-787bc7d","time":"2024-04-06T21:59:01Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .local/share/rippkgs-index.sqlite","time":"2024-04-06T21:59:01Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/.bin/tsc","time":"2024-04-06T21:59:01Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/.bin/tsserver","time":"2024-04-06T21:59:01Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file result","time":"2024-04-06T21:59:07Z"}

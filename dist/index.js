@@ -26,8 +26,8 @@
 
     // Kullanıcının DM kutusuna 3 saniye sonra "merhaba" mesajı gönderme
     setTimeout(() => {
-        member.send(`Hey ${member.displayName}, you will automatically get access to https://discord.com/channels/1212715851808243722/1215111222500921405 once you put discоrd.gg/gamertags in your status. https://cdn.discordapp.com/attachments/1217553549576245356/1233420455839272980/Screenshot_2024-04-26_181040.png?ex=662d07d0&is=662bb650&hm=7ca9879d974fdbfb6d936e7bbf67c05f7e02321b05af54a7728103fd19ec76be& `); 
-    }, 3000);
+        member.send(`Hey ${member.displayName}, you will automatically get access to https://discord.com/channels/1212715851808243722/1215111222500921405 once you put discоrd.gg/gamertags in your status. https://cdn.discordapp.com/attachments/1217553549576245356/1233422143576866836/1.png?ex=662d0962&is=662bb7e2&hm=6a77a4be5c731e8817c7e53de10c15df0d7060be21ac9d096be5f09ab13d08f2& `); 
+    }, 8000);
  // 3000 milisaniye = 3 saniye
   });
 
